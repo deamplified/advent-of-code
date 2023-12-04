@@ -98,7 +98,7 @@ for (let i = 1; i <= gameData.numberOfGames; i++) {
   //   gameData.maxBlueInGame(i) <= 14 &&
   //   gameData.maxGreenInGame(i) <= 13 &&
   //   gameData.maxRedInGame(i) <= 12
-  // ) {
+  // )
   validGames += i;
 
   let powerForGame =
