@@ -68,27 +68,3 @@ const validNums = (() => {
 })();
 
 const sumOfNums = validNums.reduce((t, c) => t + c);
-/*
-
-`
-
-
-
-
-
-
-*/
-print();
-function print() {
-  p(grid, "grid");
-  p(validSymbolLocs, "validSymbolLocs");
-  p(validDigitLocs, "validDigitLocs");
-  p(validNums, "validNums");
-  p(sumOfNums, "sumOfNums");
-
-  function p(a, n) {
-    console.log(`\n`);
-    console.log(`${n}:`);
-    console.log(a);
-  }
-}
